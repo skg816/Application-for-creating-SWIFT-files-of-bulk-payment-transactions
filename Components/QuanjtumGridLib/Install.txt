@@ -1,0 +1,31 @@
+Подробная инструкция по установке лучших компонент в мире
+
+В Delphi6:
+
+1.
+
+Добавляем пакеты:
+- Component\Install Packges\
+- кнопкой Add добавить файлы (в порядке указанном ниже):
+dxEdtrD6
+dxELibD6
+EQTLD6
+EQDBTLD6
+ECQDBCD6
+dxExELD6
+dxGrEdD6
+EQGridD6
+
+2.
+
+Добавляем пути к пакетам и модулям:
+- Tools\Environment Options...
+- закладка Library
+- кнопка в Library Path
+- кнопка в Greyed Items ..., выберите папку QuantumGridLib, нажать Add
+- кнопка в Greyed Items ..., выберите папку QuantumGridLib\DCU_RES, нажать Add
+
+Всё!!!
+
+PS: DevEx почему то внешне использует некоторые файлы форм,
+это позволит Вам настроить их под себя

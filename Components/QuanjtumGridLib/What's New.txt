@@ -1,0 +1,12 @@
+What's New in the ExpressQuantumGrid 3.2
+ 
+Editor classes have been restructured to provide in-place and standalone editors that descend from common ancestors. Included with this new editing functionality is a style component that you can use to control the look and feel of multiple editors from one convenient interface. You can use the new editor architecture to more easily create your own custom editors and have them supported standalone or within the ExpressQuantumGrid. 
+The new editors support the use of a new data-definition class so that you may create links for your editors to more than just databases, promoting a more object-oriented architecture for your applications. 
+As with all Developer Express controls, the Editors library was written from the ground up and does not rely upon any of Delphi's existing editors, whether non-data-aware or data-aware. 
+Excel style filtering is now available within the grid. If you are using load all records mode, the ExpressQuantumGrid will manage all the filtering functionality for you. If you are working in grid mode, the OnFilterChanged event is provided that allows you to filter your dataset by modifying the filter property, or the actual SQL statement at the appropriate time. 
+You can now export your grid to XML using the new SaveToXML method. 
+A new column type, TdxDBGridWrapper, allows you to change inplace editors within a column of the grid, on the fly according to the needs of your application. For example: you can use this type to change the in-place editor for a column based upon the value of another column. Also works great for XML editors.
+Hyperlink columns now support hot-tracking. 
+Two new column types have been added to the QuantumTreeList: TdxTreeListGraphicColumn and TdxTreeListBlobColumn.
+A new MRU Column has been added to both the QuantumGrid and the QuantumTreeList so that your users may select from a list of the most recently inputed values.
+UltraFlat Look & Feel.  With this new painting option, your grid can take on the newest interface characteristics without writing a single line of code. 
