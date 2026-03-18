@@ -1,0 +1,9 @@
+:Title RX Library Help
+:Base Rxd6.HLP
+
+:INCLUDE delphi6.ohc
+:INCLUDE delphi6.ohi
+:INCLUDE delphi6.ohl
+;OH :INDEX RX Library = Rxd6.HLP
+;OH :LINK Rxd6.HLP
+;OH :Include Rxd6.TOC
